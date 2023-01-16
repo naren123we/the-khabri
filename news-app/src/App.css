@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Roboto&display=swap');
+.background{
+    background:url('https:source.unsplash.com/random/1000x700');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.font{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #ffff;
+}
+.animation{
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+    transition: all .5s;
+}
+.animation1{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
