@@ -33,6 +33,7 @@ const CoArticle = ({article}) => {
         <p className={`font-semibold text-md sm:text-lg inline-block   `}>for complete article  <a href={article.source.url} target='blank'><span className=' active:scale-105 inline-block'>Click here</span></a></p>
        
         </div>
+      
         </div>
       }
         </div>

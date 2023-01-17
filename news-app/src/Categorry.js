@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 const Categorry = ({setcatogory}) => {
-    const type=[{type:"Politics",id:1},{type:"Economy",id:2},{type:"Entertainment",id:3},{type:"Sports",id:4},{type:"Cricket",id:5}]
+    const type=[{type:"Politics",id:1},{type:"Economy",id:2},{type:"Entertainment",id:3},{type:"Sports",id:4},{type:"technology",id:5}]
     
       function set (e){
            setcatogory(e.target.innerHTML)
